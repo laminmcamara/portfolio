@@ -320,4 +320,68 @@
       margin: 1rem 0;
     }
   }
-  
+
+/* ===== Production & Work-in-Progress Projects ===== */
+
+.portfolio-production {
+  max-width: 900px;
+  margin: 3rem auto;
+  padding: 1.5rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+.portfolio-production h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: #222;
+}
+
+.portfolio-production h3 span {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #555;
+  margin-top: 0.25rem;
+}
+
+.portfolio-production p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #444;
+  margin-bottom: 1rem;
+}
+
+.portfolio-production .live-link {
+  display: inline-block;
+  margin-bottom: 2rem;
+  font-weight: 500;
+  color: #0a66c2;
+  text-decoration: none;
+}
+
+.portfolio-production .live-link:hover {
+  text-decoration: underline;
+}
+
+.portfolio-production .wip {
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #e0e0e0;
+}
+
+.portfolio-production .wip h3 {
+  color: #0a66c2;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .portfolio-production {
+    padding: 1rem;
+  }
+
+  .portfolio-production h3 {
+    font-size: 1.1rem;
+  }
+}
